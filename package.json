@@ -1,0 +1,28 @@
+{
+  "name": "mesto-copy-1",
+  "version": "0.0.1",
+  "description": "Проектная работа студента Яндекс.Практикум",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && webpack --mode production",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cactys/mesto-copy.git"
+  },
+  "keywords": [
+    "mesto"
+  ],
+  "author": "Khnychkov V.A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cactys/mesto-copy/issues"
+  },
+  "homepage": "https://github.com/cactys/mesto-copy#readme",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
